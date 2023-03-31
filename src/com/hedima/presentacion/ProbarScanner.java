@@ -14,7 +14,9 @@ public class ProbarScanner {
         String nombre = sc.next();
         if (nombre.equalsIgnoreCase("Juan")) {
             System.out.println("Bienvenido Juan");
-
+    }else {
+            System.out.println("Usted no es Juan, " + nombre);
+        }
             //Pedir dos numeros y decir si son iguales
             System.out.println("Ingrese 2 numeros->");
             int numero1 = sc.nextInt(), numero2 = sc.nextInt();
@@ -37,7 +39,7 @@ public class ProbarScanner {
             }
         }
     }
-    }
+
 
 
 
